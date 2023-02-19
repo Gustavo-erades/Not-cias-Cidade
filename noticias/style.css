@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url("./imagens/fundo.png") repeat-x;
+}
+.container{
+    width: 750px;
+    margin: 0 auto;
+}
+.topo{
+    background: url("./imagens/detalhe-topo.png") no-repeat right top;
+    height: 150px;
+    padding-top: 25px;
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url("./imagens/logo.png") no-repeat;
+    text-indent: -3000px;
+}
+.topo ul{
+    margin-top: 30px;
+    background-color: #b10333;
+    float: left;
+    list-style: none;
+}
+.topo li{
+    padding:;
+    float: left;
+    background: url("./imagens/divisor.png") no-repeat left center;
+}
+.topo ul a{
+    color: #fff;
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+    line-height: 2.1em;
+    text-decoration: none;
+    display: block;
+}
+#primeiro{
+    background: none;
+}
+.topo ul li a:hover{
+    color:#650621;
+}
+ .active{
+    color:#fff;
+    background: #f00548;
+    cursor: pointer;
+}
+.conteudo{
+    margin-top: 60px;
+    background-color: #fff;
+}
+#conteudo-primeiro{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#duas-colunas #conteudo-primeiro{
+    width: 555px;
+    margin: 0 0 20px 195px;
+}
+#uma-coluna #conteudo-primeiro{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+#conteudo-segundo{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+#conteudo-lado{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+#rodape{
+    clear: both;
+    background-color: #294c71;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+#caixa{
+    background-image: url("./imagens/fundo-caixa.png");
+    padding: 5px;
+}
+#caixa h2{
+    background-color: #294c71;
+    color:#fff;
+    font-size: 1.2em;
+    padding: 2px;
+    margin: 0 3px;
+}
+.caixa-conteudo{
+    margin-top: 3px;
+    padding: 5px;
+    background-color: #fff;
+    
+}
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+}
+.caixa-conteudo ul li a:hover{
+    background: url("./imagens/marcador.png") no-repeat left center;
+    color: #9e9595;
+    padding-left: 20px;
+}
+label{
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}
+input[type="email"]{
+    width: 150px;
+   font-size: 0.9em;
+}
+.botao-form{
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #b10333;
+    color: #fff;
+    border: 1px solid #000;
+}
+.destaque h3{
+    display: inline;
+    background-color: #b10333;
+    color: #fff;
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.caixa-conteudo img{
+    margin-top: 5px;
+}
+.destaque a{
+    color: #f00548;
+}
+.lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+.lista-noticias li{
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+.lista-noticias li:hover{
+   background-color: #efefef;
+}
+.lista-noticias #ultimo{
+    border-bottom: none;
+}
+.lista-noticias li a p{
+    display: inline;
+    font-size: 0.8em;
+    margin: 0;
+}
+.lista-noticias li a p:hover{
+    color: #000;
+}
+.lista-noticias li a h3{
+    font-size: 0.9em;
+    padding: 0;
+    text-transform: uppercase;
+    color: rgb(59, 128, 185);
+}
